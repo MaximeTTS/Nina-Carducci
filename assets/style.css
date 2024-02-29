@@ -89,9 +89,7 @@ body {
   font-size: 14px;
 }
 
-#gallery {
-  /*	min-height: 100vh; */
-}
+/* gallery settings */
 .title {
   text-align: center;
   padding-block: 2em;
@@ -101,13 +99,19 @@ body {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
+  color: #000;
   background-color: #beb45a;
   border-radius: 0;
 }
 .nav-pills .nav-link {
   color: #000;
 }
+
+.nav-pills .nav-link:hover,
+.gallery img:hover {
+  cursor: pointer;
+}
+
 .item-column {
   position: relative;
   margin-bottom: 0 !important;
@@ -147,7 +151,7 @@ body {
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
-  font-size: 42px;
+  font-size: 2em;
 }
 .quote__author {
   font-family: Spectral;
