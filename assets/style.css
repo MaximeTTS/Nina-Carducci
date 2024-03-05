@@ -387,11 +387,6 @@ input[type='submit'] {
     font-weight: 500;
   }
 
-  .size__slide {
-    width: 100%;
-	  height: auto;
-  }
-
   .quote__text {
     font-size: 22px;
     font-weight: 500;
