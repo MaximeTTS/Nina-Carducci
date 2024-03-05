@@ -31,6 +31,7 @@ body {
 
 .nav li {
   padding-inline: 10px;
+  font-size: 16px;
 }
 
 .nav a {
@@ -330,7 +331,7 @@ input[type='submit'] {
   .top-header .nav,
   .top-header .nav ul {
     width: 100%;
-    padding: 0 0 0 0;
+    padding: 0 0 0 10px;
   }
   .top-header .nav li {
     flex: 1;
@@ -358,13 +359,54 @@ input[type='submit'] {
   .picture {
     width: 80%;
   }
+
+  footer {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .gallery .nav {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    padding-bottom: 0;
+  }
+
+  #about-me h1 {
+    text-align : center;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .about-me__title {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .size__slide {
+    width: 100%;
+	  height: auto;
+  }
+
+  .quote__text {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .nav li {
+    padding: 0;
+    font-size: 14px;
+  }
 }
 
 /* Footer Settings */
 
 footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   padding-top: 40px;
   padding-bottom: 20px;
